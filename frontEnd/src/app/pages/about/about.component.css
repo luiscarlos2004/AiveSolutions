@@ -1,0 +1,12 @@
+#about{
+    padding-top:4%;
+    padding-bottom:4%;
+    text-align:center;
+    color:white;
+}
+#about .title{
+    font-size: 65px;
+}
+#about .slogan{
+    font-size : 35px;
+}

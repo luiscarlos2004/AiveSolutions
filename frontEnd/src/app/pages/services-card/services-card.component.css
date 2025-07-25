@@ -1,0 +1,27 @@
+#cards-about{
+    display:flex;
+    /* flex-direction: row; */
+    /* flex-grow:2; */
+    justify-content:space-evenly;
+    padding-bottom: 50px;
+}
+#cards-about .card1,
+#cards-about .card2{
+    padding: 80px;
+    background : linear-gradient(to right, rgb(0,0,0), rgb(65,65,65));
+    color:white;
+    border-radius: 30px;
+    font-size: 23px;
+    text-align : center;
+}
+#cards-about .card1 p,
+#cards-about .card2 p{
+    margin-bottom:50px;
+}
+#cards-about .card1 a,
+#cards-about .card2 a{
+    padding: 13px;
+    font-size:23px;
+    border-radius: 5px;
+    background: rgb(23,186,170);
+}

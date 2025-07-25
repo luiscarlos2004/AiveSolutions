@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 *{
     margin:0px;
+    font-family:;
+    
+}
+
+body{
+    background : linear-gradient(to right, rgb(0,0,0), rgb(23,186,170));
 }
