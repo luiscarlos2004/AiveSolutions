@@ -4,7 +4,7 @@ import { AboutComponent } from './pages/about/about.component';
 
 export const routes: Routes = [
     {
-        path:'home',
+        path:'',
         component:HomeComponent
     },
 

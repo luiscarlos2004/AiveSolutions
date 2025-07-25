@@ -1,6 +1,13 @@
 <section>
-    <nav>
-        <a routerLink="/home">Home</a>
-        <a [routerLink]="['/about']">about</a>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="https://www.freeiconspng.com/thumbs/logo-design/blank-bird-logo-design-idea-png-15.png">
+        </div>
+        <!-- <a routerLink="/home">Home</a> -->
+         <div class="nav-links">
+            <a [routerLink]="['/']">about</a>
+            <a [routerLink]="['/hub']"></a>
+         </div>
+        
     </nav>
 </section>
